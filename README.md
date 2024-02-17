@@ -54,9 +54,10 @@ We hope to have a plot of how landslide scar surface elevation has changed throu
 
 
 ## References
-Massey, C., et al. "Landslides triggered by the 14 November 2016 M w 7.8 Kaikōura earthquake, New Zealand." Bulletin of the Seismological Society of America 108.3B (2018): 1630-1648.
-Pollock, W. (2020). A framework for regional scale quantitative landslide risk analysis. University of Washington.
-Grant, A., Wartman, J., & Abou-Jaoude, G. (2016). Multimodal method for coseismic landslide hazard assessment. Engineering Geology, 212, 146-160.
+
+Massey, C., et al. "Landslides triggered by the 14 November 2016 M w 7.8 Kaikōura earthquake, New Zealand." Bulletin of the Seismological Society of America 108.3B (2018): 1630-1648.     
+Pollock, W. (2020). A framework for regional scale quantitative landslide risk analysis. University of Washington.     
+Grant, A., Wartman, J., & Abou-Jaoude, G. (2016). Multimodal method for coseismic landslide hazard assessment. Engineering Geology, 212, 146-160.     
 
 
 

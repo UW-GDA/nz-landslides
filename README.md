@@ -27,16 +27,36 @@ Over the years, the GNS has done LiDAR and UAV - SfM surveys in the area that wi
 
 ## Datasets you will use (with links, if available)
 
-New Zealand Institute of Geological and Nuclear Sciences (GNS)
+Three Lidar DTMs from New Zealand Institute of Geological and Nuclear Sciences (GNS)
+Landslide inventory polygon from GNS
+Landsat imagery
+Planet labs imagery (hopeful)
+Global SRTM DEM
+
 
 ## Tools/packages you’ll use (with links)
+Geopandas
+Rasterio
+rioxarray
+numpy
+matplotlib
+
+
 
 ## Planned methodology/approach
 
+For a small subset study area in the Kaikoura coast range we plan to compile several datasets to analyze what happens to landslides after they occur. We will gather several separate lidar acquisition to compare surface elevation changes through time. We will use low resolution landsat, and possibly high resolution planet labs, imagery to track vegetation changes on the landslide scars through time. Then we will compare how these different changes may be correlated with spatial properties of the landslides, such as elevation, size, hillslope position, and aspect. 
+
 ## Expected outcomes
+We hope to have a plot of how landslide scar surface elevation has changed through time on a small subset of landslides. We anticipate finding some areas of decreased elevation within landslide scars caused by reactivation in the form of debris flows. We also expect to find a signal of some vegetation recovery over the 8 years since the earthquake. It is unclear how these changes will be correlated with their spatial properties, though a correlation of vegetation recovery with aspect and an anticorrelation with elevation may be likely. 
 
 ## Any other relevant information, images/tables, references, etc.
 
+
 ## References
+Massey, C., et al. "Landslides triggered by the 14 November 2016 M w 7.8 Kaikōura earthquake, New Zealand." Bulletin of the Seismological Society of America 108.3B (2018): 1630-1648.
+Pollock, W. (2020). A framework for regional scale quantitative landslide risk analysis. University of Washington.
+Grant, A., Wartman, J., & Abou-Jaoude, G. (2016). Multimodal method for coseismic landslide hazard assessment. Engineering Geology, 212, 146-160.
+
 
 

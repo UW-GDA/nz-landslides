@@ -13,6 +13,8 @@ Luis Angel Guerrero Hoyos, Paul Morgan, Alan Viola
 
 ## Short 1-2 sentence summary: 
 
+This project aims to measure and describe the factors that affected ground changes after coseismic landslides in Kaikoura, New Zealand. 
+
 ## Some introductory background information: 
 
 On 14 November 2016, the region surrounding Kaikoura, New Zealand, experienced a M7.8 earthquake which triggered over 10,000 landslides. The modes of landsliding were diverse, including shallow, soil slides; rock avalanches and rock falls; and massive, deep-seated rotational slumps (Massey et al., 2018). Extensive mapping of the landslides triggered by the November 2016 earthquake has been undertaken by the New Zealand Institute of Geological and Nuclear Sciences (GNS).

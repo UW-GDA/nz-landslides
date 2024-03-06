@@ -2,179 +2,155 @@
   <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 59S",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",171],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32759"]]</SRS>
   <GeoTransform>  7.2585857126554823e+05,  1.0006031130830697e+00,  0.0000000000000000e+00,  5.3241532143735820e+06,  0.0000000000000000e+00, -1.0006031130830697e+00</GeoTransform>
   <VRTRasterBand dataType="Float32" band="1">
+    <NoDataValue>0</NoDataValue>
     <ColorInterp>Gray</ColorInterp>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_6144_0.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="0" yOff="6144" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_2048_4096.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="4096" yOff="2048" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_0_4096.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="4096" yOff="0" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_6144_4096.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="4096" yOff="6144" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_8192_4096.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="1400" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="1400" />
       <DstRect xOff="4096" yOff="8192" xSize="2048" ySize="1400" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_8192_2048.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="1400" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="1400" />
       <DstRect xOff="2048" yOff="8192" xSize="2048" ySize="1400" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_6144_2048.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="2048" yOff="6144" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_0_8192.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2023" RasterYSize="2048" DataType="Float32" BlockXSize="2023" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2023" ySize="2048" />
       <DstRect xOff="8192" yOff="0" xSize="2023" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_4096_0.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="0" yOff="4096" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_2048_0.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="0" yOff="2048" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_0_0.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_2048_2048.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="2048" yOff="2048" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_4096_2048.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="2048" yOff="4096" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_4096_4096.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="4096" yOff="4096" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_6144_8192.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2023" RasterYSize="2048" DataType="Float32" BlockXSize="2023" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2023" ySize="2048" />
       <DstRect xOff="8192" yOff="6144" xSize="2023" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_0_6144.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="6144" yOff="0" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_8192_0.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="1400" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="1400" />
       <DstRect xOff="0" yOff="8192" xSize="2048" ySize="1400" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_2048_6144.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="6144" yOff="2048" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_2048_8192.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2023" RasterYSize="2048" DataType="Float32" BlockXSize="2023" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2023" ySize="2048" />
       <DstRect xOff="8192" yOff="2048" xSize="2023" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_4096_8192.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2023" RasterYSize="2048" DataType="Float32" BlockXSize="2023" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2023" ySize="2048" />
       <DstRect xOff="8192" yOff="4096" xSize="2023" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_4096_6144.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="6144" yOff="4096" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_8192_6144.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="1400" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="1400" />
       <DstRect xOff="6144" yOff="8192" xSize="2048" ySize="1400" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_0_2048.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="2048" yOff="0" xSize="2048" ySize="2048" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_8192_8192.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2023" RasterYSize="1400" DataType="Float32" BlockXSize="2023" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2023" ySize="1400" />
       <DstRect xOff="8192" yOff="8192" xSize="2023" ySize="1400" />
     </SimpleSource>
     <SimpleSource resampling="nearest">
       <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides/0-brute-raw-data/dem/2016_tiles/tile_6144_6144.tif</SourceFilename>
       <SourceBand>1</SourceBand>
-      <SourceProperties RasterXSize="2048" RasterYSize="2048" DataType="Float32" BlockXSize="2048" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="2048" ySize="2048" />
       <DstRect xOff="6144" yOff="6144" xSize="2048" ySize="2048" />
     </SimpleSource>

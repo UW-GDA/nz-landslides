@@ -4,7 +4,7 @@
   <VRTRasterBand dataType="Byte" band="1">
     <NoDataValue>0</NoDataValue>
     <ComplexSource resampling="bilinear">
-      <SourceFilename relativeToVRT="1">2017_hs.tif</SourceFilename>
+      <SourceFilename relativeToVRT="0">/home/jovyan/nz-landslides_local/1-raw-data/dem/2017_hs.tif</SourceFilename>
       <SourceBand>1</SourceBand>
       <SourceProperties RasterXSize="10752" RasterYSize="10367" DataType="Byte" BlockXSize="10752" BlockYSize="1" />
       <SrcRect xOff="0" yOff="0" xSize="10752" ySize="10367" />

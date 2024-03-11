@@ -31,17 +31,21 @@ Over the years, the GNS has done LiDAR and UAV - SfM surveys in the area that wi
 
 Three Lidar DTMs from New Zealand Institute of Geological and Nuclear Sciences (GNS)
 Landslide inventory polygon from GNS
-Landsat imagery
+Landsat 7, 8, and 9 collection 2 imagery
 Planet labs imagery (hopeful)
 Global SRTM DEM
 
 
 ## Tools/packages you’ll use (with links)
-Geopandas
-Rasterio
-rioxarray
-numpy
-matplotlib
+[Geopandas](https://github.com/geopandas/geopandas)
+[Rasterio](https://github.com/rasterio/rasterio)
+[rioxarray](https://github.com/corteva/rioxarray)
+[numpy](https://github.com/numpy/numpy)
+[matplotlib](https://github.com/matplotlib/matplotlib)
+[odc.stac](https://github.com/opendatacube/odc-stac)
+[gdal](https://github.com/OSGeo/gdal)
+[pystac_client](https://github.com/stac-utils/pystac-client)
+[planetary_computer](https://pypi.org/project/planetary-computer/)
 
 
 

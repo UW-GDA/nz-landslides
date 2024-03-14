@@ -53,6 +53,7 @@ https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/
 [pystac_client](https://github.com/stac-utils/pystac-client)
 [planetary_computer](https://pypi.org/project/planetary-computer/)
 [Whitebox geomorphometry](https://www.whiteboxgeo.com/)
+[rasterstats](https://pythonhosted.org/rasterstats/)
 
 
 ## Overview of folders
@@ -68,9 +69,11 @@ For a small subset study area in the Kaikoura coast range we plan to compile sev
 
 ### DEM differencing
 
+Merge three LIDAR datasets into DEMs for analysis. 
 
 ### NDVI analysis
 
+Use Landsat imagery from 2015 to 2024 to compute NDVI values in the area of interest using the Python rasterstats package.
 
 ### DEM analysis
 Use of Whitebox geospatial to perform flow routing, roughness, slope, and aspect calculations. 
@@ -93,6 +96,7 @@ We also extracted slope roughness and aspect for these landslides, from the 2016
 ## Division of tasks
 
 DEM analysis -Paul Morgan
+NDVI analysis - Alan Viola
 
 ## References
 

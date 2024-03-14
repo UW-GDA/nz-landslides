@@ -97,6 +97,7 @@ We also extracted slope roughness and aspect for these landslides, from the 2016
 
 DEM analysis -Paul Morgan
 NDVI analysis - Alan Viola
+DEM differencing - Luis Angel Guerrero Hoyos
 
 ## References
 

@@ -59,9 +59,18 @@ https://data.linz.govt.nz/layer/51768-nz-8m-digital-elevation-model-2012/
 ## Overview of folders
 
 ### Notebooks
+- 0-reading-brute-raw-data
+- 1-tile-dems
+- 2-create-vrt
+- 3-interacting-vrt-polygon
+- 4-calculating-differences&correlations
+- download_ndvi_odc_stac
+- download_ndvi
+- match_nvdi_to_polygons
 - NDVI_and_slidemovement - This script examines the relationship between landslide reactivation and NDVI
 - NZ_slides_DEManalysis - This script runs through DEM analysis with the low resolution (8m) DEM from LINZ and the landslide inventory
 - NZ_lidarareas - Code for analysis of Lidar DEMs and landslide data
+- plot_ndvi_stats
 
 
 ## Methodology
